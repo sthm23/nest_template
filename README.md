@@ -7,13 +7,21 @@ $ npm install
 ## Running the app
 
 ```bash
-# development
-$ npm run start
+# run docker compose file
+$ npm run docker
 
-# watch mode
+# start app watch mode
 $ npm run start:dev
+
+or
 
 # production mode
 $ npm run start:prod
 ```
 
+## Clear volumes
+
+```bash
+# down docker and clear volumes
+$ npm run docker:clear
+```
